@@ -4,7 +4,7 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      Hello
+      <h1>Welcome to ProShop</h1>
     </div>
   );
 }

@@ -20,7 +20,7 @@ const ProductScreen = ({match}) => {
 
     return (
         <>
-         <Link className="btn btn-primary my-3" to="/">Go Back</Link> 
+         <Link className="btn btn-primary my-3"to="/">Go Back</Link> 
          {loading ? <Loader /> : error ? <Message variant="danger">{error}</Message> : <Row>
             <Col md={6}>
                 <Image src={product.image} fluid />

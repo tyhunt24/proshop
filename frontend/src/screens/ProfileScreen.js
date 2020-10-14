@@ -49,8 +49,6 @@ const ProfileScreen = ({history}) => {
 
     }
 
-    
-
     return (
       <Row>
           <Col md={3}>

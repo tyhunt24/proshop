@@ -30,7 +30,7 @@ const PlaceOrderScreen = ({history}) => {
            history.push(`/order/${order._id}`)
        } 
          // eslint-disable-next-line
-    }, [history, success])
+    }, [history, success, order])
 
     const placeOrderHandler = (e) => {
         e.preventDefault()

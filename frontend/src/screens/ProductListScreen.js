@@ -86,7 +86,7 @@ const ProductListScreen = ({history, match}) => {
                                >
                             <i className='fas fa-trash'></i>
                           </Button>
-                  </td>
+                               </td>
                         </tr>
                     ))}
                 </tbody>

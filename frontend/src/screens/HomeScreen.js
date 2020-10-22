@@ -5,7 +5,7 @@ import Product from "../components/Product"
 import {listProducts} from "../actions/productActions"
 import Message from "../components/Message"
 import Loader from "../components/Loader"
-import ProductCarousel from "../components/ProductCarousel"
+// import ProductCarousel from "../components/ProductCarousel"
 
 
 const HomeScreen = ({match}) => {
